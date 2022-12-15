@@ -8,3 +8,5 @@ function calculateSquare(number, callback) {
         callback(null, result);
     }, 1000);
 }
+
+module.exports = calculateSquare;
